@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Home.css'
+import $ from 'jquery';
 //const apilink ='http://api.openweathermap.org/data/2.5/weather?q=cairo%2Cegypt&appid=e36ed364400282e43250b6c4c0274d44'
 class Home extends Component {
 
