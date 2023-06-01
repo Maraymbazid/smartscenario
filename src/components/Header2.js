@@ -23,7 +23,7 @@ function Header() {
                                     <a className="nav-link click-scroll " href="index.html">Accueil</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link click-scroll " href="#section_2">NosServices</a>
+                                    <a className="nav-link click-scroll " href="#section_2">Services</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link click-scroll " href="#section_3">Scénarios</a>
