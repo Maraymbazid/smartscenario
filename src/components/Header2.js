@@ -35,7 +35,7 @@ function Header() {
                                     <a className="nav-link click-scroll " href="#section_5">Evaluation</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link click-scroll " to="/contact">Contact</Link>
+                                    <Link className="nav-link click-scroll " to="/contact">Contacter nous</Link>
                                 </li>
                             </ul>
                         </div>
