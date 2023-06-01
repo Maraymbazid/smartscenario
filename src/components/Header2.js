@@ -1,9 +1,11 @@
 import React, { useContext } from 'react'
 import AuthContext from '../context/AuthContext'
 import './Header.css'
+import { Link } from 'react-router-dom';
 function Header() {
 
-    let { user, logoutUser } = useContext(AuthContext)
+    let { user1, logoutUser } = useContext(AuthContext)
+    let user = false;
     return (
         <div>
             {user ? (
@@ -33,7 +35,7 @@ function Header() {
                                     <a className="nav-link click-scroll " href="#section_5">Evaluation</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link click-scroll " href="contact.html">Contact</a>
+                                    <Link className="nav-link click-scroll " to="/contact">Contact</Link>
                                 </li>
                             </ul>
                         </div>

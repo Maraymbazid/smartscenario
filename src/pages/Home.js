@@ -36,8 +36,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
-
             <section className="featured-section">
                 <div className="container">
 
@@ -87,8 +85,6 @@ const Home = () => {
 
                 </div>
             </section >
-
-
             <section className="explore-section section-padding" id="section_2">
                 <div className="container">
                     <div className="row">
@@ -347,13 +343,69 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-
             </section>
+            <br />
+            <br />
+            <br />
+            <br />
 
-            <br />
-            <br />
-            <br />
-            <br />
+            <section>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <br /><br /><br />
+                            <img src="img/topics/Scenario accueil.jpeg" className="img-fluid rounded" alt="" />
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <div className="square-image">
+                                        <img src="img/topics/Scenario accueil.jpeg" className="custom-block-image rounded img-fluid" alt="" />
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="square-image">
+                                        <img src="img/topics/Scenario accueil.jpeg" className="custom-block-image rounded img-fluid" alt="" />
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="square-image">
+                                        <img src="img/topics/Scenario accueil.jpeg" className="custom-block-image rounded  img-fluid" alt="" />
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="square-image">
+                                        <img src="img/topics/Scenario accueil.jpeg" className="custom-block-image rounded img-fluid" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br /><br /><br />
+            <section>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <img src="img/topics/Scenario accueil.jpeg" className="img-fluid rounded" alt="" />
+                        </div>
+                        <div className="col-lg-6">
+                            <br />
+                            <br />
+
+                            <h5>Enseigner en toute simplicité</h5>
+                            <br />
+                            <span>Découvrez Smart Scénario, l'application révolutionnaire qui vous permet de créer des scénarios
+                                innovants et captivants en un instant. Libérez votre créativité et transformez vos idées en
+                                expériences immersives. Grâce à notre technologie intelligente, la génération de scénarios
+                                devient un jeu d'enfant. Simplifiez votre processus de planification et d'organisation
+                                avec des fonctionnalités avancées telles que la gestion automatisée des détails,
+                                la personnalisation des paramètres et la prévisualisation en temps réel.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </div>
     )
