@@ -55,10 +55,13 @@ class Footer2 extends Component {
                                 </ul>
                             </div>
 
-                            <div className="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
-                                <h6 className="site-footer-title mb-3">Réseaux sociaux</h6>
-
-
+                            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+                                <h6 class="site-footer-title mb-3">Réseaux sociaux</h6>
+                                <ul class="list-unstyled d-flex social-icons">
+                                    <li class="me-3"><a href="/"><i class="bi bi-facebook"></i></a></li>
+                                    <li class="me-3"><a href="/"><i class="bi bi-twitter"></i></a></li>
+                                    <li class="me-3"><a href="/"><i class="bi bi-instagram"></i></a></li>
+                                </ul>
                             </div>
 
                         </div>

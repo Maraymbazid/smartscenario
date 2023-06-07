@@ -420,8 +420,8 @@ const Home = () => {
                                 <li><h3 className="h3custom">Télécharger plus</h3></li>
                             </ul>
                             <span>Accès illimité à des bibliothèques de scénarios, activités et évaluations exclusifs.</span>
-                            {/* <br /><br />
-                            <button type="button" class="rounded-button text-white custom-btn">  Télecharger </button> */}
+                            <br /> <br />
+                            {/* <button type="button" class="rounded-button text-white custom-btn">  Télecharger </button> */}
 
                             <ul className="custom-list-2" >
                                 <li><h3 className="h3custom">Personnalisé</h3></li>
