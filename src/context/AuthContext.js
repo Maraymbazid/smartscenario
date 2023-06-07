@@ -13,14 +13,14 @@ export const AuthProvider = ({ children }) => {
     let [loading, setLoading] = useState(true)
     const navigate = useNavigate();
 
-    let loginUser = async (e) => {
-        e.preventDefault()
+    let loginUser = async (email, password) => {
+
         let response = await fetch('http://127.0.0.1:8000/api/token/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ 'email': e.target.email.value, 'password': e.target.password.value })
+            body: JSON.stringify({ 'email': email, 'password': password })
         })
         let data = await response.json()
 
@@ -37,7 +37,7 @@ export const AuthProvider = ({ children }) => {
             navigate('/')
 
         } else {
-            alert('Something went wrong!')
+            console.log(email, password)
         }
     }
 
@@ -84,22 +84,22 @@ export const AuthProvider = ({ children }) => {
     }
 
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        // if (loading) {
-        //     updateToken()
-        // }
+    //     if (loading) {
+    //         updateToken()
+    //     }
 
-        // let fourMinutes = 1000 * 60 * 4
+    //     let fourMinutes = 1000 * 60 * 4
 
-        // let interval = setInterval(() => {
-        //     if (authTokens) {
-        //         updateToken()
-        //     }
-        // }, fourMinutes)
-        // return () => clearInterval(interval)
+    //     let interval = setInterval(() => {
+    //         if (authTokens) {
+    //             updateToken()
+    //         }
+    //     }, fourMinutes)
+    //     return () => clearInterval(interval)
 
-    }, [authTokens, loading])
+    // }, [authTokens, loading])
 
     return (
         <AuthContext.Provider value={contextData} >

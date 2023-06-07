@@ -13,6 +13,7 @@ import PrivateRoute from './utils/PrivateRoute'
 import { AuthProvider } from './context/AuthContext'
 import Footer2 from './components/Footer2';
 import Contact from './pages/Contact';
+import Register from './components/register'
 //const apilink ='http://api.openweathermap.org/data/2.5/weather?q=cairo%2Cegypt&appid=e36ed364400282e43250b6c4c0274d44'
 class App extends Component {
 
@@ -24,6 +25,7 @@ class App extends Component {
           <Routes>
             <Route element={<Login></Login>} path="/login" />
             <Route element={<Contact></Contact>} path="/contact" />
+            <Route element={<Register></Register>} path="/register" />
             <Route exact path='/' element={<PrivateRoute />}>
               <Route exact path='/' element={<Home />} />
             </Route>

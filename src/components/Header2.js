@@ -43,10 +43,10 @@ function Header() {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav ms-lg-4 me-lg-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link click-scroll text-sm" href="#section_5">SeConnecter</a>
+                                    <Link className="nav-link click-scroll text-sm" to="/login">SeConnecter</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link click-scroll text-sm" href="#section_6">S’inscrire</a>
+                                    <Link className="nav-link click-scroll text-sm" to="/register">S’inscrire</Link>
                                 </li>
                             </ul>
                         </div>
