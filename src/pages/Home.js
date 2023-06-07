@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react'
+import { Link } from 'react-router-dom';
 //import AuthContext from '../context/AuthContext'
 
 const Home = () => {
@@ -428,7 +429,7 @@ const Home = () => {
                             </ul>
                             <span>Options avancées de personnalisation avec des paramètres plus détaillés, pour vos propres scénarios, activités et évaluations selon vos besoins.</span>
                             <br /><br />
-                            <button type="button" className="rounded-button text-white custom-btn" >Devenez Premium</button>
+                            <Link type="button" className="rounded-button text-white custom-btn" to="/premiem" >Devenez Premium</Link>
                         </div>
 
                     </div>
