@@ -344,11 +344,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <br />
-            <br />
-            <br />
-            <br />
-
             <section>
                 <div className="container">
                     <div className="row">
@@ -403,6 +398,39 @@ const Home = () => {
                                 avec des fonctionnalités avancées telles que la gestion automatisée des détails,
                                 la personnalisation des paramètres et la prévisualisation en temps réel.</span>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <br />
+            <br />
+            <div className="col-md-12 text-center">
+                <h4>Passer au Premium et faire passer vos scénarios créatifs au niveau supérieur.</h4>
+            </div>
+            <br />
+            <br />
+            <section>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <img src="img/topics/Scenario accueil.jpeg" className="img-fluid rounded" alt="carrée" />
+                        </div>
+                        <div className="col-md-6 personnalise-container">
+                            <br /><br />
+                            <ul className="custom-list-1" >
+                                <li><h3 className="h3custom">Télécharger plus</h3></li>
+                            </ul>
+                            <span>Accès illimité à des bibliothèques de scénarios, activités et évaluations exclusifs.</span>
+                            {/* <br /><br />
+                            <button type="button" class="rounded-button text-white custom-btn">  Télecharger </button> */}
+
+                            <ul className="custom-list-2" >
+                                <li><h3 className="h3custom">Personnalisé</h3></li>
+                            </ul>
+                            <span>Options avancées de personnalisation avec des paramètres plus détaillés, pour vos propres scénarios, activités et évaluations selon vos besoins.</span>
+                            <br /><br />
+                            <button type="button" className="rounded-button text-white custom-btn" >Devenez Premium</button>
+                        </div>
+
                     </div>
                 </div>
             </section>
