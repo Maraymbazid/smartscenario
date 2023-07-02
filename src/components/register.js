@@ -115,9 +115,9 @@ export default function SignUp() {
                         {/* /* <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
                             {/* <LockOutlinedIcon /> */
                         /* </Avatar> */}
-                        <Typography component="h1" variant="h5">
+                        {/* <Typography component="h1" variant="h5">
                             S'inscrire
-                        </Typography>
+                        </Typography> */}
                         <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
                             <TextField
                                 margin="normal"
@@ -125,8 +125,8 @@ export default function SignUp() {
                                 fullWidth
                                 id="email"
                                 label="Email Address"
-                                name="email"
                                 autoFocus
+                                name="email"
                                 onChange={handleChange}
                             />
                             <TextField
