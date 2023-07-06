@@ -132,7 +132,7 @@ export default function Activitie() {
             })
             .then((res) => {
 
-                setSuccessAlert(true);
+                //setSuccessAlert(true);
                 console.log(res);
                 console.log(res.data);
                 navigate('/getActivitie');

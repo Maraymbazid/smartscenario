@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://127.0.0.1:8000/';
+const baseURL = 'https://taamiz.com/';
 
 const axiosInstance = axios.create({
     baseURL: baseURL,
@@ -12,5 +12,6 @@ const axiosInstance = axios.create({
         'Content-Type': 'application/json',
         accept: 'application/json',
     },
+    withCredentials: true,
 });
 export default axiosInstance

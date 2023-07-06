@@ -52,6 +52,7 @@ const GetScenarios = () => {
             .get('scenario/getallsceanrio/')
             .then((response) => {
                 setScenarios(response.data);
+                console.log(response.data)
             })
             .catch((error) => {
                 console.log(error);

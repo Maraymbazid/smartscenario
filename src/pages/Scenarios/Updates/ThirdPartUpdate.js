@@ -134,7 +134,7 @@ export default function ThirdPartUpdate() {
 
             })
             .then((res) => {
-                //navigate('/ViewFinalScenario')
+                navigate('/GetScenarios')
                 console.log(res.data)
 
             });

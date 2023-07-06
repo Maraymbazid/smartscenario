@@ -89,7 +89,7 @@ export default function ThirdPartScanario() {
 
             })
             .then((res) => {
-                navigate('/ViewFinalScenario')
+                navigate('/GetScenarios')
 
             });
 

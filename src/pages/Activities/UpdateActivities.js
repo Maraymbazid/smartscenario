@@ -9,12 +9,12 @@ import FormControl from '@mui/material/FormControl'
 import Input from '@mui/material/Input';
 import InputAdornment from '@mui/material/InputAdornment';
 import axiosInstance from '../../axios';
+import { useNavigate } from 'react-router-dom';
 import { useRef } from 'react';
 const UpdateActivity = () => {
     const { activityId } = useContext(ActivityContext);
     const textareaRef = useRef(null);
-
-
+    const navigate = useNavigate();
     const handleTextareaChange = (e) => {
         const value = e.target.value;
         setTextareaValue(value);
@@ -97,7 +97,7 @@ const UpdateActivity = () => {
 
                 // console.log(res);
                 // console.log(res.data);
-                // navigate('/getActivitie');
+                navigate('/getActivitie');
             });
 
     };
