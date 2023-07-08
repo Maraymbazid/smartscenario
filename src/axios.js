@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://taamiz.com/';
+const baseURL = '';
 
 const axiosInstance = axios.create({
     baseURL: baseURL,
